@@ -1,5 +1,5 @@
 header {
-  background-color: #2ecc71;
+  background-color: #3498db;
   width: 100%;
 }
 
@@ -8,13 +8,28 @@ header {
   width: 80%;
 }
 
-.title {
+.navbar-header {
   padding: 5px;
   color: #fff;
 }
 
-.title h1 {
+.navbar-header h1 {
   line-height: 30px;
   font-weight: bold;
   padding-bottom: 10px;
+  padding-right: 150px;
+}
+
+.navbar-button {
+  padding: 20px;
+  float:left;
+}
+
+.button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 2px;
+  background-color: #1abc9c;
+  color: #fff;
+  font-weight: bold;
 }
